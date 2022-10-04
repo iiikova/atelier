@@ -15,7 +15,7 @@ import {
   NavbarBrgNavStyled,
   NavbarBrgUlStyled,
   NavbarBrgLiStyled,
-} from "../../styles/Navbar.styled";
+} from "../styles/Navbar.styled";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
