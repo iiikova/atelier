@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: inherit;
+  transition: 3s;
+}
+
+:root {
+  --bg-main: #181511;
+  --clr-primary: #aca592;
+  --clr-secondary: #ffae2b;
+  --clr-white: #ffffff;
+}
+
+ul[role="list"],
+ol[role="list"],
+ul,
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+button,
+input {
+  outline: none;
+  border: none;
+}
