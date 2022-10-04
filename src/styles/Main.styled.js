@@ -45,6 +45,7 @@ export const MainTitleStyled = styled.h1`
   line-height: 80px;
   text-align: center;
   letter-spacing: 1px;
+  max-width: 869px;
 
   color: #ffffff;
 `;

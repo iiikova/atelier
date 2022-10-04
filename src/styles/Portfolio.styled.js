@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import img1 from "../assets/images/IMAGE1.png";
 
 export const PortfolioContainerStyled = styled.div`
   background-color: var(--bg-main);
@@ -38,11 +37,11 @@ export const PortfolioCollectionStyled = styled.div`
   color: #fff;
   padding: 2rem 0;
 
-  @media screen and (max-width: 425px) {
-    grid-template-columns: 1fr;
-  }
   @media screen and (max-width: 768px) {
     grid-template-columns: 1fr 1fr;
+  }
+  @media screen and (max-width: 425px) {
+    grid-template-columns: 1fr;
   }
 `;
 
