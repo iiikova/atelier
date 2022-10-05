@@ -8,8 +8,12 @@ export const ServiceContainerStyled = styled.div`
 
 export const ServiceInnerStyled = styled.div`
   padding: 0 1rem;
-  width: 1058px;
+  max-width: 1058px;
   margin: 0 auto;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
 `;
 
 export const ServiceTextStyled = styled.p`
@@ -37,12 +41,15 @@ export const ServiceItemsStyled = styled.div`
   justify-content: center;
   grid-template-columns: repeat(3, 1fr);
   padding: 4rem 0;
+
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 export const ServiceItemStyled = styled.div`
   color: #fff;
   height: 350px;
-  width: 400px;
   border: 1px solid #4b4136;
   padding: 4rem 6rem 4rem 4rem;
   display: grid;
@@ -53,6 +60,12 @@ export const ServiceItemStyled = styled.div`
   }
   &:nth-child(3) {
     margin-top: 20px;
+  }
+
+  @media screen and (max-width: 425px) {
+    &:nth-child(3) {
+      margin-top: 10px;
+    }
   }
 `;
 

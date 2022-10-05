@@ -4,6 +4,8 @@ import Main from "./components/Main";
 import Portfolio from "./components/Portfolio";
 import Layout from "./components/Layout";
 import Service from "./components/Service";
+import Social from "./components/Social";
+import Subscribe from "./components/Subscribe";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <Portfolio />
       <Layout />
       <Service />
+      <Social />
+      <Subscribe />
     </>
   );
 }
