@@ -13,7 +13,7 @@ export const SubscribeInnerStyled = styled.div`
   display: flex;
   flex-direction: column;
   align-content: center;
-  border-bottom: 1px solid #4b4136;
+  /* border-bottom: 1px solid #4b4136; */
 
   @media (min-width: 768px) {
     display: flex;

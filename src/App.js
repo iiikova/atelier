@@ -6,6 +6,7 @@ import Layout from "./components/Layout";
 import Service from "./components/Service";
 import Social from "./components/Social";
 import Subscribe from "./components/Subscribe";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Service />
       <Social />
       <Subscribe />
+      <Footer />
     </>
   );
 }

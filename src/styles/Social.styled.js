@@ -5,14 +5,14 @@ export const SocialContainerStyled = styled.div`
   background-color: var(--bg-main);
   height: 100%;
   padding: 1rem 0;
-  border-top: 1px solid var(--clr-primary);
-  border-bottom: 1px solid var(--clr-primary);
 `;
 
 export const SocialInnerStyled = styled.div`
   padding: 0 1rem;
   max-width: 1058px;
   margin: 0 auto;
+  border-top: 1px solid #4b4136;
+  border-bottom: 1px solid #4b4136;
 `;
 
 export const SocialItemsStyled = styled.div`
