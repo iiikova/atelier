@@ -93,6 +93,9 @@ export const NavbarBrgButtonStyled = styled.div`
   @media screen and (min-width: 768px) {
     display: none;
   }
+  @media screen and (max-width: 768px) {
+    display: block;
+  }
 `;
 
 export const NavbarBrgMenuStyled = styled.div`
@@ -107,6 +110,9 @@ export const NavbarBrgMenuStyled = styled.div`
 
   @media screen and (min-width: 768px) {
     display: none;
+  }
+  @media screen and (max-width: 768px) {
+    display: block;
   }
 `;
 

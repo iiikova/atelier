@@ -8,6 +8,8 @@ export const PortfolioContainerStyled = styled.div`
 
 export const PortfolioInnerStyled = styled.div`
   padding: 0 1rem;
+  max-width: 1058px;
+  margin: 0 auto;
 `;
 
 export const PortfolioTextStyled = styled.p`

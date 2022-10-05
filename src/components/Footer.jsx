@@ -9,27 +9,30 @@ import {
   FooterLinksStyled,
   FooterLinkStyled,
   FooterLineStyled,
+  FooterFooterStyled,
 } from "../styles/Footer.styled";
 
 function Footer() {
   return (
     <FooterContainerStyled>
-      <FooterLineStyled></FooterLineStyled>
-
       <FooterInnerStyled>
-        <FooterLeftStyled>
-          <FooterDevStyled>
-            Powered by
-            <FooterDevSpanStyled>Webflow</FooterDevSpanStyled>
-          </FooterDevStyled>
-        </FooterLeftStyled>
-        <FooterRightStyled>
-          <FooterLinksStyled>
-            <FooterLinkStyled>Licenses</FooterLinkStyled>
-            <FooterLinkStyled>Style Guide</FooterLinkStyled>
-            <FooterLinkStyled>Instruction</FooterLinkStyled>
-          </FooterLinksStyled>
-        </FooterRightStyled>
+        <FooterLineStyled></FooterLineStyled>
+
+        <FooterFooterStyled>
+          <FooterLeftStyled>
+            <FooterDevStyled>
+              Powered by
+              <FooterDevSpanStyled>Webflow</FooterDevSpanStyled>
+            </FooterDevStyled>
+          </FooterLeftStyled>
+          <FooterRightStyled>
+            <FooterLinksStyled>
+              <FooterLinkStyled>Licenses</FooterLinkStyled>
+              <FooterLinkStyled>Style Guide</FooterLinkStyled>
+              <FooterLinkStyled>Instruction</FooterLinkStyled>
+            </FooterLinksStyled>
+          </FooterRightStyled>
+        </FooterFooterStyled>
       </FooterInnerStyled>
     </FooterContainerStyled>
   );

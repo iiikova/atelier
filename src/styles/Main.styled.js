@@ -36,24 +36,16 @@ export const MainTitleStyled = styled.h1`
   font-size: 70px;
   line-height: 80px;
   text-align: center;
-  letter-spacing: 1px;
-  left: calc(50% - 869px / 2 + 0.5px);
-  top: calc(50% - 160px / 2 - 34px);
   font-style: normal;
-  font-weight: 400;
-  font-size: 70px;
-  line-height: 80px;
-  text-align: center;
   letter-spacing: 1px;
   max-width: 869px;
-
   color: #ffffff;
 `;
 
 export const MainButtonPStyled = styled.button`
   width: 143px;
   height: 50px;
-  color: var(--mainColor);
+  color: var(--bg-main);
   background-color: var(--clr-secondary);
   font-style: normal;
   font-weight: 400;

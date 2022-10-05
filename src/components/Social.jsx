@@ -7,12 +7,14 @@ import {
   SocialBlockStyled,
   SocialTextStyled,
   SocialButtonStyled,
+  SocialLineStyled,
 } from "../styles/Social.styled";
 
 function Social() {
   return (
     <SocialContainerStyled>
       <SocialInnerStyled>
+        <SocialLineStyled></SocialLineStyled>
         <SocialItemsStyled>
           <SocialImgStyled
             src={require("../assets/images/SOCIALIMAGE1.png")}
@@ -31,6 +33,7 @@ function Social() {
             src={require("../assets/images/SOCIALIMAGE4.png")}
           ></SocialImgStyled>
         </SocialItemsStyled>
+        <SocialLineStyled></SocialLineStyled>
       </SocialInnerStyled>
     </SocialContainerStyled>
   );

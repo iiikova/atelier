@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const SubscribeContainerStyled = styled.div`
   background-color: var(--bg-main);
   height: 100%;
-  padding: 1rem 0;
 `;
 
 export const SubscribeInnerStyled = styled.div`
@@ -13,7 +12,6 @@ export const SubscribeInnerStyled = styled.div`
   display: flex;
   flex-direction: column;
   align-content: center;
-  /* border-bottom: 1px solid #4b4136; */
 
   @media (min-width: 768px) {
     display: flex;

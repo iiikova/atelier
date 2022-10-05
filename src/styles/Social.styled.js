@@ -4,15 +4,18 @@ import vector from "../assets/images/Vector.png";
 export const SocialContainerStyled = styled.div`
   background-color: var(--bg-main);
   height: 100%;
-  padding: 1rem 0;
 `;
 
 export const SocialInnerStyled = styled.div`
   padding: 0 1rem;
   max-width: 1058px;
   margin: 0 auto;
-  border-top: 1px solid #4b4136;
-  border-bottom: 1px solid #4b4136;
+`;
+
+export const SocialLineStyled = styled.div`
+  max-width: 1058px;
+  height: 1px;
+  background-color: #4b4136;
 `;
 
 export const SocialItemsStyled = styled.div`
@@ -21,6 +24,7 @@ export const SocialItemsStyled = styled.div`
   justify-content: center;
   align-items: center;
   gap: 0.05rem;
+  padding: 2rem 0;
   @media (max-width: 768px) {
     grid-template-columns: 1fr 1fr;
   }
@@ -53,12 +57,10 @@ export const SocialTextStyled = styled.h2`
 `;
 export const SocialButtonStyled = styled.button`
   background: #ffae2b;
-  border-radius: 0px;
   width: 122px;
   height: 50px;
 `;
 
 export const SocialImgStyled = styled.img`
-  z-index: 22;
   width: 100%;
 `;
